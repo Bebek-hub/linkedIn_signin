@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a img {
+    width: 150px;
+    margin: 20px;
+}
+
+.container {
+    background-color: #fff;
+    width: 350px;
+    height: 480px;
+    box-shadow: 2px 2px 5px gray ;
+    margin: auto;
+    padding: 30px 20px 20px;
+    border-radius: 8px;
+}
+
+main h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+main p {
+    font-size: 12px;
+    margin: 5px 0 25px;
+    letter-spacing: 1px;
+}
+
+form #mail {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px 7px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+form #psw {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px 7px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+form p a, section p span a {
+    text-decoration: none;
+    color: rgb(19, 19, 185);
+    font-weight: bold;
+}
+
+form p a:hover, section p span a:hover {
+    text-decoration: underline;
+    background-color: #c1d5f0;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+form p a:active, section p span a:active {
+    color: rgb(223, 63, 63);
+}
+
+#sign {
+    width: 100%;
+    background-color: rgb(19, 19, 185);
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form #line {
+    text-align: center;
+}
+
+#apple {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 0;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+
+form img {
+    width: 20px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+
+section p {
+    font-size: 16px;
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+footer .foot {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.foot li {
+    font-size: 12px;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foot li a {
+    text-decoration: none;
+    color: rgb(39, 37, 37);
+    font-size: 12px;
+    padding: 5px;
+}
+
+.foot li a:hover {
+    text-decoration: underline;
+}
+
+.foot li img {
+    width: 70px;
+}
+
+
+@media (max-width: 1017px) {
+    footer {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
